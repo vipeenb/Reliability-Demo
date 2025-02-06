@@ -1,0 +1,385 @@
+2025-02-06 16:44:30.437 +05:30 [INF] User profile is available. Using 'C:\Users\vipee\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-06 16:44:31.511 +05:30 [INF] Now listening on: https://localhost:7075
+2025-02-06 16:44:31.513 +05:30 [INF] Now listening on: http://localhost:5273
+2025-02-06 16:44:31.609 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-06 16:44:31.611 +05:30 [INF] Hosting environment: Development
+2025-02-06 16:44:31.613 +05:30 [INF] Content root path: C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo
+2025-02-06 16:44:34.611 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/ - null null
+2025-02-06 16:44:35.490 +05:30 [INF] Executing endpoint '/Index'
+2025-02-06 16:44:35.651 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-02-06 16:44:35.679 +05:30 [INF] Executing handler method ReliabilityDemo.Pages.IndexModel.OnGet - ModelState is "Valid"
+2025-02-06 16:44:35.699 +05:30 [INF] Executed handler method OnGet, returned result .
+2025-02-06 16:44:35.709 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-06 16:44:35.712 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-06 16:44:35.966 +05:30 [INF] Executed page /Index in 300.9501ms
+2025-02-06 16:44:35.979 +05:30 [INF] Executed endpoint '/Index'
+2025-02-06 16:44:35.993 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/ - 200 null text/html; charset=utf-8 1394.9181ms
+2025-02-06 16:44:36.046 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/ReliabilityDemo.c7fqy5w9pl.styles.css - null null
+2025-02-06 16:44:36.082 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js - null null
+2025-02-06 16:44:36.046 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css - null null
+2025-02-06 16:44:36.046 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/css/site.b9sayid5wm.css - null null
+2025-02-06 16:44:36.046 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/lib/jquery/dist/jquery.min.o1o13a6vjx.js - null null
+2025-02-06 16:44:36.129 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/js/site.xtxxf3hu2r.js - null null
+2025-02-06 16:44:36.129 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-06 16:44:36.214 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:44:36.215 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:44:36.224 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:44:36.229 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:44:36.243 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:44:36.246 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:44:36.263 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 134.4699ms
+2025-02-06 16:44:36.341 +05:30 [INF] Sending file. Request path: 'js/site.xtxxf3hu2r.js'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\a6gt2nspo9-xtxxf3hu2r.gz'
+2025-02-06 16:44:36.343 +05:30 [INF] Sending file. Request path: 'ReliabilityDemo.c7fqy5w9pl.styles.css'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\ywidz9gcj8-c7fqy5w9pl.gz'
+2025-02-06 16:44:36.343 +05:30 [INF] Sending file. Request path: 'css/site.b9sayid5wm.css'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\usmnzr1ecv-b9sayid5wm.gz'
+2025-02-06 16:44:36.431 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:44:36.362 +05:30 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\8elp72p1v4-493y06b0oq.gz'
+2025-02-06 16:44:36.366 +05:30 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\2t9d1vs7dg-46ein0sx1k.gz'
+2025-02-06 16:44:36.381 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:44:36.383 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:44:36.362 +05:30 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.o1o13a6vjx.js'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\kle6q15j09-o1o13a6vjx.gz'
+2025-02-06 16:44:36.433 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/css/site.b9sayid5wm.css - 200 700 text/css 387.0569ms
+2025-02-06 16:44:36.443 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:44:36.445 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:44:36.448 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/js/site.xtxxf3hu2r.js - 200 264 text/javascript 329.9884ms
+2025-02-06 16:44:36.458 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/ReliabilityDemo.c7fqy5w9pl.styles.css - 200 1166 text/css 412.6727ms
+2025-02-06 16:44:36.460 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:44:36.467 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js - 200 80764 text/javascript 419.9804ms
+2025-02-06 16:44:36.476 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css - 200 232871 text/css 430.6542ms
+2025-02-06 16:44:36.479 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/_vs/browserLink - null null
+2025-02-06 16:44:36.504 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/lib/jquery/dist/jquery.min.o1o13a6vjx.js - 200 87576 text/javascript 458.4816ms
+2025-02-06 16:44:36.710 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/_vs/browserLink - 200 null text/javascript; charset=UTF-8 231.055ms
+2025-02-06 16:44:36.867 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/favicon.ico - null null
+2025-02-06 16:44:36.881 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:44:36.890 +05:30 [INF] Sending file. Request path: 'favicon.ico'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\x73lj3gesf-61n19gt1b8.gz'
+2025-02-06 16:44:36.897 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:44:36.900 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/favicon.ico - 200 5463 image/x-icon 32.8121ms
+2025-02-06 16:44:58.777 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css - null null
+2025-02-06 16:44:58.777 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/css/site.b9sayid5wm.css - null null
+2025-02-06 16:44:58.828 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/ReliabilityDemo.c7fqy5w9pl.styles.css - null null
+2025-02-06 16:44:58.839 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:44:58.845 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:44:58.847 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:44:58.854 +05:30 [INF] Sending file. Request path: 'css/site.b9sayid5wm.css'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\usmnzr1ecv-b9sayid5wm.gz'
+2025-02-06 16:44:58.906 +05:30 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\2t9d1vs7dg-46ein0sx1k.gz'
+2025-02-06 16:44:58.906 +05:30 [INF] Sending file. Request path: 'ReliabilityDemo.c7fqy5w9pl.styles.css'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\ywidz9gcj8-c7fqy5w9pl.gz'
+2025-02-06 16:44:58.913 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:44:58.930 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:44:58.947 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:44:58.955 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/css/site.b9sayid5wm.css - 200 700 text/css 177.2368ms
+2025-02-06 16:44:58.957 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css - 200 232871 text/css 179.2646ms
+2025-02-06 16:44:58.960 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/ReliabilityDemo.c7fqy5w9pl.styles.css - 200 1166 text/css 131.6933ms
+2025-02-06 16:44:58.975 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2025-02-06 16:44:59.159 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:44:59.181 +05:30 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\3y1gxmqdiw-iovd86k7lj.gz'
+2025-02-06 16:44:59.187 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/lib/bootstrap/dist/css/bootstrap.min.css.map - null null
+2025-02-06 16:44:59.191 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:44:59.197 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:44:59.199 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 332173 text/plain 223.6017ms
+2025-02-06 16:44:59.279 +05:30 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.css.map'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\tutsrjiaqb-v0zj4ognzu.gz'
+2025-02-06 16:44:59.288 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:44:59.292 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/lib/bootstrap/dist/css/bootstrap.min.css.map - 200 590015 text/plain 105.4855ms
+2025-02-06 16:54:11.520 +05:30 [INF] User profile is available. Using 'C:\Users\vipee\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-06 16:54:12.446 +05:30 [INF] Now listening on: https://localhost:7075
+2025-02-06 16:54:12.452 +05:30 [INF] Now listening on: http://localhost:5273
+2025-02-06 16:54:12.570 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-06 16:54:12.572 +05:30 [INF] Hosting environment: Development
+2025-02-06 16:54:12.573 +05:30 [INF] Content root path: C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo
+2025-02-06 16:54:14.865 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/ - null null
+2025-02-06 16:54:15.991 +05:30 [INF] Executing endpoint '/Index'
+2025-02-06 16:54:16.144 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-02-06 16:54:16.180 +05:30 [INF] Executing handler method ReliabilityDemo.Pages.IndexModel.OnGet - ModelState is "Valid"
+2025-02-06 16:54:16.191 +05:30 [INF] Index page loaded at "2025-02-06T11:24:16.1912221Z"
+2025-02-06 16:54:16.200 +05:30 [INF] Executed handler method OnGet, returned result .
+2025-02-06 16:54:16.211 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-06 16:54:16.219 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-06 16:54:16.474 +05:30 [INF] Executed page /Index in 310.9967ms
+2025-02-06 16:54:16.489 +05:30 [INF] Executed endpoint '/Index'
+2025-02-06 16:54:16.498 +05:30 [INF] HTTP GET / responded 200 in 788.0163 ms
+2025-02-06 16:54:16.511 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/ - 200 null text/html; charset=utf-8 1658.7219ms
+2025-02-06 16:54:16.668 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css - null null
+2025-02-06 16:54:16.686 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/ReliabilityDemo.c7fqy5w9pl.styles.css - null null
+2025-02-06 16:54:16.669 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/css/site.b9sayid5wm.css - null null
+2025-02-06 16:54:16.668 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-06 16:54:16.687 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/lib/jquery/dist/jquery.min.o1o13a6vjx.js - null null
+2025-02-06 16:54:16.761 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js - null null
+2025-02-06 16:54:16.773 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/js/site.xtxxf3hu2r.js - null null
+2025-02-06 16:54:16.823 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/_vs/browserLink - null null
+2025-02-06 16:54:16.835 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:54:16.835 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:54:16.842 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:54:16.896 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 226.9501ms
+2025-02-06 16:54:16.915 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:54:16.925 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:54:16.929 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:54:17.008 +05:30 [INF] Sending file. Request path: 'css/site.b9sayid5wm.css'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\usmnzr1ecv-b9sayid5wm.gz'
+2025-02-06 16:54:17.007 +05:30 [INF] Sending file. Request path: 'ReliabilityDemo.c7fqy5w9pl.styles.css'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\ywidz9gcj8-c7fqy5w9pl.gz'
+2025-02-06 16:54:17.019 +05:30 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.o1o13a6vjx.js'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\kle6q15j09-o1o13a6vjx.gz'
+2025-02-06 16:54:17.039 +05:30 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\8elp72p1v4-493y06b0oq.gz'
+2025-02-06 16:54:17.041 +05:30 [INF] Sending file. Request path: 'js/site.xtxxf3hu2r.js'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\a6gt2nspo9-xtxxf3hu2r.gz'
+2025-02-06 16:54:17.042 +05:30 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\2t9d1vs7dg-46ein0sx1k.gz'
+2025-02-06 16:54:17.043 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:54:17.053 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:54:17.064 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/_vs/browserLink - 200 null text/javascript; charset=UTF-8 240.759ms
+2025-02-06 16:54:17.066 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:54:17.069 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:54:17.088 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js responded 200 in 168.1810 ms
+2025-02-06 16:54:17.073 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:54:17.075 +05:30 [INF] HTTP GET /css/site.b9sayid5wm.css responded 200 in 233.0561 ms
+2025-02-06 16:54:17.076 +05:30 [INF] HTTP GET /ReliabilityDemo.c7fqy5w9pl.styles.css responded 200 in 245.2104 ms
+2025-02-06 16:54:17.085 +05:30 [INF] HTTP GET /lib/jquery/dist/jquery.min.o1o13a6vjx.js responded 200 in 182.4073 ms
+2025-02-06 16:54:17.071 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:54:17.092 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js - 200 80764 text/javascript 337.3399ms
+2025-02-06 16:54:17.093 +05:30 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css responded 200 in 268.8301 ms
+2025-02-06 16:54:17.106 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/css/site.b9sayid5wm.css - 200 700 text/css 437.4541ms
+2025-02-06 16:54:17.109 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/ReliabilityDemo.c7fqy5w9pl.styles.css - 200 1166 text/css 429.3132ms
+2025-02-06 16:54:17.126 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/lib/jquery/dist/jquery.min.o1o13a6vjx.js - 200 87576 text/javascript 439.1809ms
+2025-02-06 16:54:17.136 +05:30 [INF] HTTP GET /js/site.xtxxf3hu2r.js responded 200 in 208.6398 ms
+2025-02-06 16:54:17.144 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css - 200 232871 text/css 476.4803ms
+2025-02-06 16:54:17.146 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-06 16:54:17.176 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/js/site.xtxxf3hu2r.js - 200 264 text/javascript 403.0603ms
+2025-02-06 16:54:17.193 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 48.0378ms
+2025-02-06 16:54:45.197 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/ReliabilityDemo.c7fqy5w9pl.styles.css - null null
+2025-02-06 16:54:45.205 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/css/site.b9sayid5wm.css - null null
+2025-02-06 16:54:45.197 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css - null null
+2025-02-06 16:54:45.217 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:54:45.222 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:54:45.224 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:54:45.228 +05:30 [INF] Sending file. Request path: 'ReliabilityDemo.c7fqy5w9pl.styles.css'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\ywidz9gcj8-c7fqy5w9pl.gz'
+2025-02-06 16:54:45.247 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:54:45.236 +05:30 [INF] Sending file. Request path: 'css/site.b9sayid5wm.css'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\usmnzr1ecv-b9sayid5wm.gz'
+2025-02-06 16:54:45.252 +05:30 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\2t9d1vs7dg-46ein0sx1k.gz'
+2025-02-06 16:54:45.253 +05:30 [INF] HTTP GET /ReliabilityDemo.c7fqy5w9pl.styles.css responded 200 in 35.6647 ms
+2025-02-06 16:54:45.254 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:54:45.256 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:54:45.258 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/ReliabilityDemo.c7fqy5w9pl.styles.css - 200 1166 text/css 61.7758ms
+2025-02-06 16:54:45.261 +05:30 [INF] HTTP GET /css/site.b9sayid5wm.css responded 200 in 41.3415 ms
+2025-02-06 16:54:45.263 +05:30 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css responded 200 in 39.4011 ms
+2025-02-06 16:54:45.269 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/css/site.b9sayid5wm.css - 200 700 text/css 71.9441ms
+2025-02-06 16:54:45.272 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css - 200 232871 text/css 75.2384ms
+2025-02-06 16:54:45.323 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - null null
+2025-02-06 16:54:45.341 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/lib/bootstrap/dist/css/bootstrap.min.css.map - null null
+2025-02-06 16:54:45.347 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:54:45.367 +05:30 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.css.map'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\tutsrjiaqb-v0zj4ognzu.gz'
+2025-02-06 16:54:45.369 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:54:45.370 +05:30 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css.map responded 200 in 23.5621 ms
+2025-02-06 16:54:45.373 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/lib/bootstrap/dist/css/bootstrap.min.css.map - 200 590015 text/plain 31.9383ms
+2025-02-06 16:54:45.412 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:54:45.692 +05:30 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.js.map'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\3y1gxmqdiw-iovd86k7lj.gz'
+2025-02-06 16:54:45.695 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 16:54:45.697 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js.map responded 200 in 368.5726 ms
+2025-02-06 16:54:45.701 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map - 200 332173 text/plain 377.883ms
+2025-02-06 17:53:24.213 +05:30 [INF] User profile is available. Using 'C:\Users\vipee\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-02-06 17:53:24.966 +05:30 [INF] Now listening on: https://localhost:7075
+2025-02-06 17:53:24.969 +05:30 [INF] Now listening on: http://localhost:5273
+2025-02-06 17:53:25.021 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-02-06 17:53:25.022 +05:30 [INF] Hosting environment: Development
+2025-02-06 17:53:25.023 +05:30 [INF] Content root path: C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo
+2025-02-06 17:53:27.206 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/ - null null
+2025-02-06 17:53:27.896 +05:30 [INF] Executing endpoint '/Index'
+2025-02-06 17:53:27.955 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-06 17:53:27.990 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 34.9337ms
+2025-02-06 17:53:28.043 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-02-06 17:53:28.066 +05:30 [INF] Executing handler method ReliabilityDemo.Pages.IndexModel.OnGet - ModelState is "Valid"
+2025-02-06 17:53:28.072 +05:30 [INF] Index page loaded at "2025-02-06T12:23:28.0725131Z"
+2025-02-06 17:53:28.077 +05:30 [INF] Executed handler method OnGet, returned result .
+2025-02-06 17:53:28.087 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-06 17:53:28.090 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-06 17:53:28.364 +05:30 [INF] Executed page /Index in 311.8578ms
+2025-02-06 17:53:28.372 +05:30 [INF] Executed endpoint '/Index'
+2025-02-06 17:53:28.377 +05:30 [INF] HTTP GET / responded 200 in 658.0680 ms
+2025-02-06 17:53:28.391 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/ - 200 null text/html; charset=utf-8 1202.4474ms
+2025-02-06 17:53:28.428 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css - null null
+2025-02-06 17:53:28.468 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-06 17:53:28.530 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/js/site.xtxxf3hu2r.js - null null
+2025-02-06 17:53:28.539 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:28.428 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/css/site.b9sayid5wm.css - null null
+2025-02-06 17:53:28.429 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/ReliabilityDemo.c7fqy5w9pl.styles.css - null null
+2025-02-06 17:53:28.646 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:28.513 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/lib/jquery/dist/jquery.min.o1o13a6vjx.js - null null
+2025-02-06 17:53:28.714 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:28.714 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:28.580 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js - null null
+2025-02-06 17:53:28.643 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 213.202ms
+2025-02-06 17:53:28.728 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:28.743 +05:30 [INF] Sending file. Request path: 'ReliabilityDemo.c7fqy5w9pl.styles.css'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\ywidz9gcj8-c7fqy5w9pl.gz'
+2025-02-06 17:53:28.743 +05:30 [INF] Sending file. Request path: 'css/site.b9sayid5wm.css'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\usmnzr1ecv-b9sayid5wm.gz'
+2025-02-06 17:53:28.743 +05:30 [INF] Sending file. Request path: 'js/site.xtxxf3hu2r.js'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\a6gt2nspo9-xtxxf3hu2r.gz'
+2025-02-06 17:53:28.773 +05:30 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\2t9d1vs7dg-46ein0sx1k.gz'
+2025-02-06 17:53:28.774 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:28.797 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:28.815 +05:30 [INF] HTTP GET /ReliabilityDemo.c7fqy5w9pl.styles.css responded 200 in 100.9064 ms
+2025-02-06 17:53:28.806 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:28.808 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:28.811 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:28.801 +05:30 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.o1o13a6vjx.js'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\kle6q15j09-o1o13a6vjx.gz'
+2025-02-06 17:53:28.821 +05:30 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\8elp72p1v4-493y06b0oq.gz'
+2025-02-06 17:53:28.824 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/ReliabilityDemo.c7fqy5w9pl.styles.css - 200 1166 text/css 395.0242ms
+2025-02-06 17:53:28.826 +05:30 [INF] HTTP GET /css/site.b9sayid5wm.css responded 200 in 154.6569 ms
+2025-02-06 17:53:28.828 +05:30 [INF] HTTP GET /js/site.xtxxf3hu2r.js responded 200 in 182.1689 ms
+2025-02-06 17:53:28.829 +05:30 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css responded 200 in 306.3828 ms
+2025-02-06 17:53:28.831 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:28.843 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:28.859 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/css/site.b9sayid5wm.css - 200 700 text/css 430.5971ms
+2025-02-06 17:53:28.861 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/js/site.xtxxf3hu2r.js - 200 264 text/javascript 331.8365ms
+2025-02-06 17:53:28.864 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css - 200 232871 text/css 435.9398ms
+2025-02-06 17:53:28.874 +05:30 [INF] HTTP GET /lib/jquery/dist/jquery.min.o1o13a6vjx.js responded 200 in 147.8851 ms
+2025-02-06 17:53:28.875 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/_vs/browserLink - null null
+2025-02-06 17:53:28.877 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js responded 200 in 108.6262 ms
+2025-02-06 17:53:28.909 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/lib/jquery/dist/jquery.min.o1o13a6vjx.js - 200 87576 text/javascript 431.7194ms
+2025-02-06 17:53:28.926 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js - 200 80764 text/javascript 387.7215ms
+2025-02-06 17:53:29.007 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/_vs/browserLink - 200 null text/javascript; charset=UTF-8 131.6114ms
+2025-02-06 17:53:32.647 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7075/?handler=Trigger500 - application/x-www-form-urlencoded 182
+2025-02-06 17:53:32.659 +05:30 [INF] Executing endpoint '/Index'
+2025-02-06 17:53:32.662 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-02-06 17:53:32.686 +05:30 [INF] Executing handler method ReliabilityDemo.Pages.IndexModel.OnPostTrigger500 - ModelState is "Valid"
+2025-02-06 17:53:32.690 +05:30 [INF] Trigger Internal Server Error
+2025-02-06 17:53:32.829 +05:30 [ERR] An error occored Attempted to divide by zero.
+2025-02-06 17:53:32.833 +05:30 [INF] Executed handler method OnPostTrigger500, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2025-02-06 17:53:32.838 +05:30 [INF] Executing RedirectToPageResult, redirecting to /Error.
+2025-02-06 17:53:32.840 +05:30 [INF] Executed page /Index in 176.487ms
+2025-02-06 17:53:32.841 +05:30 [INF] Executed endpoint '/Index'
+2025-02-06 17:53:32.842 +05:30 [INF] HTTP POST / responded 302 in 182.7026 ms
+2025-02-06 17:53:32.844 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7075/?handler=Trigger500 - 302 0 null 196.7187ms
+2025-02-06 17:53:32.852 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/Error?code=500 - null null
+2025-02-06 17:53:32.859 +05:30 [INF] Executing endpoint '/Error'
+2025-02-06 17:53:32.873 +05:30 [INF] Route matched with {page = "/Error"}. Executing page /Error
+2025-02-06 17:53:32.888 +05:30 [INF] Executing handler method ReliabilityDemo.Pages.ErrorModel.OnGet - ModelState is "Valid"
+2025-02-06 17:53:32.891 +05:30 [ERR] A 500 Internal Server Error Occured 
+2025-02-06 17:53:32.892 +05:30 [INF] Executed handler method OnGet, returned result .
+2025-02-06 17:53:32.893 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-06 17:53:32.894 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-06 17:53:32.906 +05:30 [INF] Executed page /Error in 31.9086ms
+2025-02-06 17:53:32.909 +05:30 [INF] Executed endpoint '/Error'
+2025-02-06 17:53:32.910 +05:30 [INF] HTTP GET /Error responded 200 in 52.2918 ms
+2025-02-06 17:53:32.913 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/Error?code=500 - 200 null text/html; charset=utf-8 61.3144ms
+2025-02-06 17:53:32.971 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css - null null
+2025-02-06 17:53:32.972 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/css/site.b9sayid5wm.css - null null
+2025-02-06 17:53:32.972 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-06 17:53:32.972 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/ReliabilityDemo.c7fqy5w9pl.styles.css - null null
+2025-02-06 17:53:32.972 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/lib/jquery/dist/jquery.min.o1o13a6vjx.js - null null
+2025-02-06 17:53:32.972 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js - null null
+2025-02-06 17:53:32.973 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/js/site.xtxxf3hu2r.js - null null
+2025-02-06 17:53:32.974 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/_vs/browserLink - null null
+2025-02-06 17:53:32.976 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:32.982 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:32.988 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:32.984 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 12.3245ms
+2025-02-06 17:53:32.998 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:33.008 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:33.009 +05:30 [INF] Sending file. Request path: 'css/site.b9sayid5wm.css'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\usmnzr1ecv-b9sayid5wm.gz'
+2025-02-06 17:53:33.011 +05:30 [INF] Sending file. Request path: 'ReliabilityDemo.c7fqy5w9pl.styles.css'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\ywidz9gcj8-c7fqy5w9pl.gz'
+2025-02-06 17:53:33.021 +05:30 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\2t9d1vs7dg-46ein0sx1k.gz'
+2025-02-06 17:53:33.025 +05:30 [INF] Sending file. Request path: 'js/site.xtxxf3hu2r.js'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\a6gt2nspo9-xtxxf3hu2r.gz'
+2025-02-06 17:53:33.029 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:33.029 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/_vs/browserLink - 200 null text/javascript; charset=UTF-8 55.1575ms
+2025-02-06 17:53:33.030 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:33.031 +05:30 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.o1o13a6vjx.js'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\kle6q15j09-o1o13a6vjx.gz'
+2025-02-06 17:53:33.036 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:33.039 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:33.041 +05:30 [INF] HTTP GET /css/site.b9sayid5wm.css responded 200 in 61.8601 ms
+2025-02-06 17:53:33.046 +05:30 [INF] HTTP GET /ReliabilityDemo.c7fqy5w9pl.styles.css responded 200 in 57.8423 ms
+2025-02-06 17:53:33.047 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:33.049 +05:30 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css responded 200 in 73.4022 ms
+2025-02-06 17:53:33.052 +05:30 [INF] HTTP GET /js/site.xtxxf3hu2r.js responded 200 in 56.1732 ms
+2025-02-06 17:53:33.055 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/css/site.b9sayid5wm.css - 200 700 text/css 82.9509ms
+2025-02-06 17:53:33.057 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/ReliabilityDemo.c7fqy5w9pl.styles.css - 200 1166 text/css 84.9088ms
+2025-02-06 17:53:33.058 +05:30 [INF] HTTP GET /lib/jquery/dist/jquery.min.o1o13a6vjx.js responded 200 in 67.8214 ms
+2025-02-06 17:53:33.060 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css - 200 232871 text/css 88.4785ms
+2025-02-06 17:53:33.061 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/js/site.xtxxf3hu2r.js - 200 264 text/javascript 88.6407ms
+2025-02-06 17:53:33.070 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:33.071 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/lib/jquery/dist/jquery.min.o1o13a6vjx.js - 200 87576 text/javascript 99.0499ms
+2025-02-06 17:53:33.084 +05:30 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\8elp72p1v4-493y06b0oq.gz'
+2025-02-06 17:53:33.090 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:33.091 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js responded 200 in 97.4890 ms
+2025-02-06 17:53:33.093 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js - 200 80764 text/javascript 120.5556ms
+2025-02-06 17:53:34.874 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/ - null null
+2025-02-06 17:53:34.880 +05:30 [INF] Executing endpoint '/Index'
+2025-02-06 17:53:34.886 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-02-06 17:53:34.888 +05:30 [INF] Executing handler method ReliabilityDemo.Pages.IndexModel.OnGet - ModelState is "Valid"
+2025-02-06 17:53:34.890 +05:30 [INF] Index page loaded at "2025-02-06T12:23:34.8900307Z"
+2025-02-06 17:53:34.890 +05:30 [INF] Executed handler method OnGet, returned result .
+2025-02-06 17:53:34.892 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-06 17:53:34.893 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-06 17:53:34.896 +05:30 [INF] Executed page /Index in 8.0983ms
+2025-02-06 17:53:34.899 +05:30 [INF] Executed endpoint '/Index'
+2025-02-06 17:53:34.902 +05:30 [INF] HTTP GET / responded 200 in 21.9919 ms
+2025-02-06 17:53:34.906 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/ - 200 null text/html; charset=utf-8 31.4956ms
+2025-02-06 17:53:34.946 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-06 17:53:34.967 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 20.8325ms
+2025-02-06 17:53:35.960 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7075/?handler=Trigger404 - application/x-www-form-urlencoded 182
+2025-02-06 17:53:35.968 +05:30 [INF] Executing endpoint '/Index'
+2025-02-06 17:53:35.971 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-02-06 17:53:35.973 +05:30 [INF] Executing handler method ReliabilityDemo.Pages.IndexModel.OnPostTrigger404 - ModelState is "Valid"
+2025-02-06 17:53:35.974 +05:30 [WRN] Trigger File Not Found Error
+2025-02-06 17:53:35.975 +05:30 [INF] Executed handler method OnPostTrigger404, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2025-02-06 17:53:35.977 +05:30 [INF] Executing RedirectToPageResult, redirecting to /Error.
+2025-02-06 17:53:35.978 +05:30 [INF] Executed page /Index in 5.0694ms
+2025-02-06 17:53:35.979 +05:30 [INF] Executed endpoint '/Index'
+2025-02-06 17:53:35.979 +05:30 [INF] HTTP POST / responded 302 in 11.4672 ms
+2025-02-06 17:53:35.983 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7075/?handler=Trigger404 - 302 0 null 22.0237ms
+2025-02-06 17:53:35.991 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/Error?code=404 - null null
+2025-02-06 17:53:35.994 +05:30 [INF] Executing endpoint '/Error'
+2025-02-06 17:53:35.995 +05:30 [INF] Route matched with {page = "/Error"}. Executing page /Error
+2025-02-06 17:53:35.996 +05:30 [INF] Executing handler method ReliabilityDemo.Pages.ErrorModel.OnGet - ModelState is "Valid"
+2025-02-06 17:53:35.997 +05:30 [ERR] A 404 Not Found Error Occured 
+2025-02-06 17:53:36.000 +05:30 [INF] Executed handler method OnGet, returned result .
+2025-02-06 17:53:36.006 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-06 17:53:36.007 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-06 17:53:36.009 +05:30 [INF] Executed page /Error in 13.611ms
+2025-02-06 17:53:36.011 +05:30 [INF] Executed endpoint '/Error'
+2025-02-06 17:53:36.012 +05:30 [INF] HTTP GET /Error responded 200 in 17.7752 ms
+2025-02-06 17:53:36.022 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/Error?code=404 - 200 null text/html; charset=utf-8 30.658ms
+2025-02-06 17:53:36.060 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css - null null
+2025-02-06 17:53:36.061 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/css/site.b9sayid5wm.css - null null
+2025-02-06 17:53:36.061 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-06 17:53:36.061 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/ReliabilityDemo.c7fqy5w9pl.styles.css - null null
+2025-02-06 17:53:36.061 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/_vs/browserLink - null null
+2025-02-06 17:53:36.061 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/lib/jquery/dist/jquery.min.o1o13a6vjx.js - null null
+2025-02-06 17:53:36.080 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:36.071 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 10.2384ms
+2025-02-06 17:53:36.087 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:36.065 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:36.061 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js - null null
+2025-02-06 17:53:36.061 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/js/site.xtxxf3hu2r.js - null null
+2025-02-06 17:53:36.069 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:36.100 +05:30 [INF] Sending file. Request path: 'ReliabilityDemo.c7fqy5w9pl.styles.css'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\ywidz9gcj8-c7fqy5w9pl.gz'
+2025-02-06 17:53:36.102 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.5714ms
+2025-02-06 17:53:36.110 +05:30 [INF] Sending file. Request path: 'lib/jquery/dist/jquery.min.o1o13a6vjx.js'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\kle6q15j09-o1o13a6vjx.gz'
+2025-02-06 17:53:36.112 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:36.117 +05:30 [INF] Executing endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:36.117 +05:30 [INF] Sending file. Request path: 'lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\2t9d1vs7dg-46ein0sx1k.gz'
+2025-02-06 17:53:36.121 +05:30 [INF] Sending file. Request path: 'css/site.b9sayid5wm.css'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\usmnzr1ecv-b9sayid5wm.gz'
+2025-02-06 17:53:36.123 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:36.127 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:36.129 +05:30 [INF] Sending file. Request path: 'js/site.xtxxf3hu2r.js'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\a6gt2nspo9-xtxxf3hu2r.gz'
+2025-02-06 17:53:36.129 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:36.130 +05:30 [INF] Sending file. Request path: 'lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js'. Physical path: 'C:\Users\vipee\source\repos\ReliabilityDemo\ReliabilityDemo\obj\Debug\net9.0\compressed\8elp72p1v4-493y06b0oq.gz'
+2025-02-06 17:53:36.133 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:36.134 +05:30 [INF] HTTP GET /ReliabilityDemo.c7fqy5w9pl.styles.css responded 200 in 53.9891 ms
+2025-02-06 17:53:36.135 +05:30 [INF] HTTP GET /lib/jquery/dist/jquery.min.o1o13a6vjx.js responded 200 in 47.8833 ms
+2025-02-06 17:53:36.137 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:36.138 +05:30 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css responded 200 in 72.5469 ms
+2025-02-06 17:53:36.139 +05:30 [INF] Executed endpoint 'Microsoft.AspNetCore.Routing.RouteEndpoint'
+2025-02-06 17:53:36.140 +05:30 [INF] HTTP GET /css/site.b9sayid5wm.css responded 200 in 71.4112 ms
+2025-02-06 17:53:36.141 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/ReliabilityDemo.c7fqy5w9pl.styles.css - 200 1166 text/css 79.996ms
+2025-02-06 17:53:36.143 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/lib/jquery/dist/jquery.min.o1o13a6vjx.js - 200 87576 text/javascript 81.4353ms
+2025-02-06 17:53:36.143 +05:30 [INF] HTTP GET /js/site.xtxxf3hu2r.js responded 200 in 27.3219 ms
+2025-02-06 17:53:36.145 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css - 200 232871 text/css 84.8984ms
+2025-02-06 17:53:36.145 +05:30 [INF] HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js responded 200 in 33.5739 ms
+2025-02-06 17:53:36.147 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/css/site.b9sayid5wm.css - 200 700 text/css 86.0251ms
+2025-02-06 17:53:36.158 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/js/site.xtxxf3hu2r.js - 200 264 text/javascript 96.7958ms
+2025-02-06 17:53:36.163 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js - 200 80764 text/javascript 101.4884ms
+2025-02-06 17:53:37.479 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/ - null null
+2025-02-06 17:53:37.485 +05:30 [INF] Executing endpoint '/Index'
+2025-02-06 17:53:37.487 +05:30 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2025-02-06 17:53:37.488 +05:30 [INF] Executing handler method ReliabilityDemo.Pages.IndexModel.OnGet - ModelState is "Valid"
+2025-02-06 17:53:37.489 +05:30 [INF] Index page loaded at "2025-02-06T12:23:37.4890466Z"
+2025-02-06 17:53:37.490 +05:30 [INF] Executed handler method OnGet, returned result .
+2025-02-06 17:53:37.491 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-02-06 17:53:37.492 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-02-06 17:53:37.495 +05:30 [INF] Executed page /Index in 7.8811ms
+2025-02-06 17:53:37.498 +05:30 [INF] Executed endpoint '/Index'
+2025-02-06 17:53:37.500 +05:30 [INF] HTTP GET / responded 200 in 14.9249 ms
+2025-02-06 17:53:37.504 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/ - 200 null text/html; charset=utf-8 24.9803ms
+2025-02-06 17:53:37.539 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - null null
+2025-02-06 17:53:37.543 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7075/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 3.8168ms
